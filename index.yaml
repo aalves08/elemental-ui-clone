@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  test-alex:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.10.0 <= 2.13.0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+      catalog.cattle.io/ui-extensions-version: '>= 3.0.0 < 4.0.0'
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-03-20T18:16:42.703517532Z"
+    description: test-alex plugin
+    digest: 5a9893bb53396e74d5531e9a80affbd5ac04c11532763e09ffb37fe6630d655b
+    name: test-alex
+    type: application
+    urls:
+    - assets/test-alex/test-alex-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-03-20T18:16:42.702485347Z"
